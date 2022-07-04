@@ -4,7 +4,7 @@ Code repo of article [link]
 ## Dataset
 - pt_dataset.csv - Set of 113 Pt complexes with 56 features. 
 - no_corr_pt_dataset.csv - Set of 113 Pt complexes with 29 weakly correlated features. 
-Features: 
+### Features: 
 - Complex: Pt complex ID
 - Source_doi: DOI of article where the experimental value of 195Pt NMR chemical shift was taken from
 - Charge: Charge of complex scaled 1000 times
