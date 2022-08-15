@@ -5,6 +5,7 @@ Code repo of article "Predicting 195Pt NMR Chemical Shifts in (In)Organic Comple
 1. pt_dataset.csv - Set of 113 Pt complexes with 56 features. 
 2. no_corr_pt_dataset.csv - Set of 113 Pt complexes with 29 weakly correlated features obtained after EDA. 
 ### Features: 
+The explanation of column features are listed below
 ```
 - Complex: Pt complex ID
 - Source_doi: DOI of article where the experimental value of 195Pt NMR chemical shift was taken from
