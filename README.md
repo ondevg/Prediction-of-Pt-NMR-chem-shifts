@@ -22,6 +22,20 @@ Code repo of article "Predicting 195Pt NMR Chemical Shifts in (In)Organic Comple
 Explorative data analysis and visualizations are in EDA.ipynb
 
 ## Models
-In models.ipynb the train, validation and test procedures are introduced. Models explanation by use of Shapley values are presented as well.
+In models.ipynb the train, validation and test procedures are introduced. Models explanation by use of Shapley values are presented as well
 
+## Requirements
+One can find the requirements in requirements.txt file
+
+##Citing
+Please cite as:
+@article{,
+  title={},
+  author={},
+  journal={},
+  pages={},
+  year={},
+  publisher={},
+  doi={}
+}
 
