@@ -27,7 +27,7 @@ In models.ipynb the train, validation and test procedures are introduced. Models
 ## Requirements
 One can find the requirements in requirements.txt file
 
-##Citing
+## Citing
 Please cite as:
 @article{,
   title={},
