@@ -1,5 +1,5 @@
 # Prediction-of-Pt-NMR-chem-shifts
-Code repo of article [link]
+Code repo of article "Predicting 195Pt NMR Chemical Shifts in (In)Organic Complexes with a Fast and Simple Protocol Combining Semi-Empirical Modeling and Machine Learning" by Evgeniia E. Ondar, Mikhail V. Polynski, Valentine P. Ananikov. [link]
 
 ## Dataset
 1. pt_dataset.csv - Set of 113 Pt complexes with 56 features. 
