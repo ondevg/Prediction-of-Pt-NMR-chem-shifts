@@ -22,6 +22,6 @@ Code repo of article [link]
 Explorative data analysis and visualizations are in EDA.ipynb
 
 ## Models
-In models.ipynb the train, validation and test procedures are introduced. Models explanation by use of Shapley values are described as well.
+In models.ipynb the train, validation and test procedures are introduced. Models explanation by use of Shapley values are presented as well.
 
 
