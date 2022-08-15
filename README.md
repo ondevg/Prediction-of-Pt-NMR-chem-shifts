@@ -26,9 +26,6 @@ Explorative data analysis and visualizations are in EDA.ipynb
 ## Models
 In models.ipynb the train, validation and test procedures are introduced. Models explanation by use of Shapley values are presented as well
 
-## Requirements
-One can find the requirements in requirements.txt file
-
 ## Citing
 Please cite as:
 ```
