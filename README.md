@@ -2,10 +2,10 @@
 Code repo of article "Predicting 195Pt NMR Chemical Shifts in (In)Organic Complexes with a Fast and Simple Protocol Combining Semi-Empirical Modeling and Machine Learning" by Evgeniia E. Ondar, Mikhail V. Polynski, Valentine P. Ananikov. [link]
 
 ## Dataset
-1. pt_dataset.csv - Set of 113 Pt complexes with 56 features calculated by use of GFN2-xTB. 
-2. no_corr_pt_dataset.csv - Set of 113 Pt complexes with 29 weakly correlated features calculated by use of GFN2-xTB.
-3. qtaim.csv - Set of 113 Pt complexes with 32 features calculated by use of ZORA-TPSS/triple-$`/zeta`$. 
-4. no_corr_qtaim.csv - Set of 113 Pt complexes with 25 weakly correlated features calculated by use of ZORA-TPSS/triple-$`/zeta`$.
+1. pt_dataset.csv - Set of 113 Pt complexes with 56 features calculated by use of `GFN2-xTB`. 
+2. no_corr_pt_dataset.csv - Set of 113 Pt complexes with 29 weakly correlated features calculated by use of `GFN2-xTB`.
+3. qtaim.csv - Set of 113 Pt complexes with 32 features calculated by use of `ZORA-TPSS/triple-$/zeta$`. 
+4. no_corr_qtaim.csv - Set of 113 Pt complexes with 25 weakly correlated features calculated by use of `ZORA-TPSS/triple-$/zeta$`.
 ### Features 
 The explanation of column features of pt_dataset.csv is listed below:
 ```
