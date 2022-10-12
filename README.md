@@ -1,6 +1,7 @@
 # Prediction-of-Pt-NMR-chem-shifts
 Code repo of article "Predicting 195Pt NMR Chemical Shifts in (In)Organic Complexes with a Fast and Simple Protocol Combining Semi-Empirical Modeling and Machine Learning" by Evgeniia E. Ondar, Mikhail V. Polynski, Valentine P. Ananikov. [link]
-![alt text](ttps://github.com/ondevg/Prediction-of-Pt-NMR-chem-shifts/maimain1.png)
+
+!(https://github.com/ondevg/Prediction-of-Pt-NMR-chem-shifts/maimain1.png)
 
 ## Dataset
 1. pt_dataset.csv - Set of 113 Pt complexes with features calculated by use of `GFN2-xTB`. 
