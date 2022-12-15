@@ -29,7 +29,7 @@ Smiles - SMILES of the complex
 Explorative data analysis and visualizations are in EDA.ipynb
 
 ## Models
-In models.ipynb the train, validation and test procedures are introduced. Models explanation by use of Shapley values are presented as well
+In models.ipynb the train, validation and test procedures are introduced. Random forest, ridge and support vector regressor were taken into consideration. Models explanation by use of Shapley values are presented as well.
 
 ## Citing
 Please cite as:
