@@ -4,7 +4,7 @@ Code repo of article "Predicting 195Pt NMR Chemical Shifts in (In)Organic Comple
 ![alt text](https://github.com/ondevg/Prediction-of-Pt-NMR-chem-shifts/blob/main/maimain.png?raw=true)
 
 ## Dataset
-Dataset was constructed from SMILES of 113 Pt complexes by use of 3D structure optimization. Optimization procedure consisted of 1) GFN2-xTB method, or 2) ZORA-TPSS/triple-$/zeta$.
+Generation of 3D structure of complexes was performed automatically by convertion of SMILES (3D_structure_generation.ipynb). Dataset was constructed from 3D geometry optimization outputs of 113 Pt complexes.  Optimization procedure consisted of 1) GFN2-xTB method, or 2) ZORA-TPSS/triple-$/zeta$.
 
 1. xtb_pt_dataset.csv - Set of 113 Pt complexes with features calculated by use of `GFN2-xTB`. 
 2. no_corr_xtb_pt_dataset.csv - Set of 113 Pt complexes with weakly correlated features calculated by use of `GFN2-xTB`.
