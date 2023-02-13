@@ -6,12 +6,8 @@ Code repo of article "Predicting 195Pt NMR Chemical Shifts in (In)Organic Comple
 ## Dataset
 Generation of 3D structure of complexes was performed automatically by convertion of SMILES (3D_structure_generation.ipynb). Dataset was constructed from 3D geometry optimization outputs of 113 Pt complexes.  Optimization procedure consisted of 1) GFN2-xTB method, or 2) ZORA-TPSS/triple-$/zeta$.
 
-1. xtb_pt_dataset.csv - Set of 113 Pt complexes with features calculated by use of `GFN2-xTB`. 
-2. no_corr_xtb_pt_dataset.csv - Set of 113 Pt complexes with weakly correlated features calculated by use of `GFN2-xTB`.
-3. qtaim_pt_dataset.csv - Set of 113 Pt complexes with features calculated by use of `ZORA-TPSS/triple-$/zeta$`. 
-4. no_corr_qtaim_pt_dataset.csv - Set of 113 Pt complexes with weakly correlated features calculated by use of `ZORA-TPSS/triple-$/zeta$`.
 ### Features 
-The explanation of features of datasets is listed below:
+The explanation of features of Coulomb matrix-based dataset is listed below:
 ```
 Complex ID - Pt complex ID
 Source_doi - DOI of article where the experimental value of 195Pt NMR chemical shift was taken from
