@@ -5,7 +5,7 @@ Water-soluble Pt complexes are vital components in medicinal chemistry and catal
 
 We present a new workflow for predicting the lowest-energy configurational/conformational isomers of water-soluble Pt(II) and Pt(IV) anionic, neutral, and cationic complexes with halide, NO2−, (di)amino, and (di)carboxylate ligands. The workflow uses the GFN2-xTB semiempirical method to determine 3D structures and a Machine Learning (ML) model tuned for Pt complexes to predict corresponding chemical shifts.
 
-![alt text](https://github.com/ondevg/Prediction-of-Pt-NMR-chem-shifts/blob/main/maimain.png?raw=true)
+![alt text](https://github.com/ondevg/Prediction-of-Pt-NMR-chem-shifts/blob/main/mainfig.png?raw=true)
 
 The ML model offers an impressive accuracy of 0.98% (normalized root-mean-square deviation / RMSD) on the held-out test set, with chemical shift values ranging from -6293 to 7090 ppm. This workflow can be a valuable tool for researchers in the field, as it provides a reliable approach for the rapid correlation of Pt complex structure with 195Pt chemical shifts.
 
