@@ -1,11 +1,11 @@
 # Water-Soluble Pt Complexes: Workflow for Predicting 195Pt Chemical Shifts
 Code repo of article "Predicting 195Pt NMR Chemical Shifts in (In)Organic Complexes with a Fast and Simple Protocol Combining Semi-Empirical Modeling and Machine Learning" by Evgeniia E. Ondar, Mikhail V. Polynski, Valentine P. Ananikov. [link]
 
-![alt text](https://github.com/ondevg/Prediction-of-Pt-NMR-chem-shifts/blob/main/maimain.png?raw=true)
-
 Water-soluble Pt complexes are vital components in medicinal chemistry and catalysis, including the well-known cisplatin family of anticancer drugs and industrial hydrosylilation catalysts. Understanding the activity mechanisms of these complexes is crucial, and 195Pt NMR spectroscopy is a valuable tool for operando monitoring. However, correlating Pt complex structure with 195Pt chemical shifts can be challenging, limiting their use in everyday research practice.
 
 We present a new workflow for predicting the lowest-energy configurational/conformational isomers of water-soluble Pt(II) and Pt(IV) anionic, neutral, and cationic complexes with halide, NO2−, (di)amino, and (di)carboxylate ligands. The workflow uses the GFN2-xTB semiempirical method to determine 3D structures and a Machine Learning (ML) model tuned for Pt complexes to predict corresponding chemical shifts.
+
+![alt text](https://github.com/ondevg/Prediction-of-Pt-NMR-chem-shifts/blob/main/maimain.png?raw=true)
 
 The ML model offers an impressive accuracy of 0.98% (normalized root-mean-square deviation / RMSD) on the held-out test set, with chemical shift values ranging from -6293 to 7090 ppm. This workflow can be a valuable tool for researchers in the field, as it provides a reliable approach for the rapid correlation of Pt complex structure with 195Pt chemical shifts.
 
@@ -36,6 +36,12 @@ Explorative data analysis and visualizations are in EDA.ipynb
 
 ## Models
 In models.ipynb the train, validation and test procedures are introduced. Random forest, ridge and support vector regressor were taken into consideration. Models explanation by use of Shapley values are presented as well.
+
+## Contribution
+
+Evgeniia E. Ondar - 
+Mikhail V. Polynski - 
+Valentine P. Ananikov - 
 
 ## Citing
 Please cite as:
