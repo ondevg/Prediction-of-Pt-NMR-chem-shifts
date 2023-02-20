@@ -12,7 +12,9 @@ The ML model offers an impressive accuracy of 0.98% (normalized root-mean-square
 We hope that this workflow will contribute to the advancement of research in the field of water-soluble Pt complexes and catalysis.
 
 ## Dataset
-Generation of 3D structure of complexes was performed automatically by convertion of SMILES (3D_structure_generation.ipynb). Dataset was constructed from 3D geometry optimization outputs of 113 Pt complexes.  Optimization procedure consisted of 1) GFN2-xTB method, or 2) ZORA-TPSS/triple-$/zeta$.
+Generation of 3D structure of complexes was performed automatically by convertion of SMILES (3D_structure_generation.ipynb). Dataset was constructed from 3D geometry optimization outputs of 122 Pt water-soluble complexes. Optimization procedure consisted of 1) GFN2-xTB method, or 2) ZORA-TPSS/triple-zeta. Descriptors based on ZORA-TPSS/triple-zeta computations were used as a baseline set to compare the GFN2-xTB with. 
+
+Additionally to GFN2-xTB optimized parameters of complexes, three descriptors were calculated: FCHL, aSLATM, Coulomb matrix. Comparative analysis showed that descriptors based on Coloumb matrix enable good generalization. 
 
 ### Features 
 The explanation of features of Coulomb matrix-based dataset is listed below:
@@ -40,7 +42,9 @@ In models.ipynb the train, validation and test procedures are introduced. Random
 ## Contribution
 
 Evgeniia E. Ondar - 
+
 Mikhail V. Polynski - 
+
 Valentine P. Ananikov - 
 
 ## Citing
