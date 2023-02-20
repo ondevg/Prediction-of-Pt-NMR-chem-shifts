@@ -12,7 +12,7 @@ The ML model offers an impressive accuracy of 0.98% (normalized root-mean-square
 We hope that this workflow will contribute to the advancement of research in the field of water-soluble Pt complexes and catalysis.
 
 ## Dataset
-Generation of 3D structure of complexes was performed automatically by convertion of SMILES (3D_structure_generation.ipynb). Dataset was constructed from 3D geometry optimization outputs of 122 Pt water-soluble complexes. Optimization procedure consisted of 1) GFN2-xTB method, or 2) ZORA-TPSS/triple-zeta. Descriptors based on ZORA-TPSS/triple-zeta computations were used as a baseline set. 
+Generation of 3D structure of complexes was performed automatically by convertion of SMILES (3D_structure_generation.ipynb). Dataset was constructed from 3D geometry optimization outputs of 122 Pt water-soluble complexes. Optimization procedure consisted of 1) GFN2-xTB method, or 2) ZORA-TPSS/triple-Z. Descriptors based on ZORA-TPSS/triple-Z computations were used as a baseline set. 
 
 Additionally to GFN2-xTB optimized parameters of complexes, three descriptors were calculated: FCHL, aSLATM, Coulomb matrix. Comparative analysis showed that descriptors based on Coloumb matrix enable good generalization. 
 
@@ -28,7 +28,7 @@ q - Pt atom charge in the complex calculated by use of GFN2-xTB
 Brutto - Brutto formula of complex
 Charge_class - charge of complex as neutral \anion \ cation
 Geometry - geometry of complex as sq-pl (square-planar) \ oct (octahedral)
-Ligand - type of ligands in the complex as hal (halogen) \ org (organic) \ inorg (inorganic) \ hal-org \ hal-inorg
+Ligand - type of ligands in the complex as hal (halogen) \ org (organic) \ inorg (inorganic) \ hal-org \ hal-inorg \ org-inorg
 Smiles - SMILES of the complex
 1-46 - vector descriptor of Pt atom from Coulomb matrix of the complex
 
@@ -41,11 +41,11 @@ In models.ipynb the train, validation and test procedures are introduced. Random
 
 ## Contribution
 
-Evgeniia E. Ondar - 
+Evgeniia E. Ondar - Pt water-soluble complexes dataset construction, machine learning pipeline realization, manuscript preparation
 
-Mikhail V. Polynski - 
+Mikhail V. Polynski - project technical conceptualization, DFT and semi-empirical calculations, structural descriptor preparation, prototype code for descriptor calculations and KRR, manuscript preparation
 
-Valentine P. Ananikov - 
+Valentine P. Ananikov - project supervision and general conceptualization, manuscript preparation
 
 ## Citing
 Please cite as:
