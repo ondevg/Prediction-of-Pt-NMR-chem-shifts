@@ -7,12 +7,12 @@ We present a new workflow for predicting the lowest-energy configurational/confo
 
 ![alt text](https://github.com/ondevg/Prediction-of-Pt-NMR-chem-shifts/blob/main/mainfig.png?raw=true)
 
-The ML model offers an impressive accuracy of 0.98% (normalized root-mean-square deviation / RMSD) on the held-out test set, with chemical shift values ranging from -6293 to 7090 ppm. This workflow can be a valuable tool for researchers in the field, as it provides a reliable approach for the rapid correlation of Pt complex structure with 195Pt chemical shifts.
+The ML model offers an accuracy of 0.98% (normalized root-mean-square deviation / RMSD) on the held-out test set, with chemical shift values ranging from -6293 to 7090 ppm. This workflow can be a valuable tool for researchers in the field, as it provides a reliable approach for the rapid correlation of Pt complex structure with 195Pt chemical shifts.
 
 We hope that this workflow will contribute to the advancement of research in the field of water-soluble Pt complexes and catalysis.
 
 ## Dataset
-Generation of 3D structure of complexes was performed automatically by convertion of SMILES (3D_structure_generation.ipynb). Dataset was constructed from 3D geometry optimization outputs of 122 Pt water-soluble complexes. Optimization procedure consisted of 1) GFN2-xTB method, or 2) ZORA-TPSS/triple-Z. Descriptors based on ZORA-TPSS/triple-Z computations were used as a baseline set. 
+Generation of 3D structure of complexes was performed automatically by convertion of SMILES (Pt_3D_structure_generation.ipynb). Dataset was constructed from 3D geometry optimization outputs of 122 Pt water-soluble complexes. Optimization procedure consisted of 1) GFN2-xTB method, or 2) ZORA-TPSS/triple-Z. Descriptors based on ZORA-TPSS/triple-Z computations were used as a baseline set. 
 
 Additionally to GFN2-xTB optimized parameters of complexes, three descriptors were calculated: FCHL, aSLATM, Coulomb matrix. Comparative analysis showed that descriptors based on Coloumb matrix enable good generalization. 
 
