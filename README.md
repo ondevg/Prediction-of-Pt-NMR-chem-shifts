@@ -41,7 +41,7 @@ In models.ipynb the train, validation and test procedures are introduced. Random
 
 ## Contribution
 
-Evgeniia E. Ondar - Pt water-soluble complexes dataset construction, machine learning pipeline realization, manuscript preparation
+Evgeniia E. Ondar - Pt water-soluble complexes dataset construction, machine learning pipeline implementation, manuscript preparation
 
 Mikhail V. Polynski - project technical conceptualization, DFT and semi-empirical calculations, structural descriptor preparation, prototype code for descriptor calculations and KRR, manuscript preparation
 
