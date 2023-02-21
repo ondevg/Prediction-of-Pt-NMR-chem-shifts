@@ -1,5 +1,5 @@
 # Water-Soluble Pt Complexes: Workflow for Predicting 195Pt Chemical Shifts
-Code repo of article "Predicting 195Pt NMR Chemical Shifts in (In)Organic Complexes with a Fast and Simple Protocol Combining Semi-Empirical Modeling and Machine Learning" by Evgeniia E. Ondar, Mikhail V. Polynski, Valentine P. Ananikov. [link]
+Code repo of article ["Predicting 195Pt NMR Chemical Shifts in (In)Organic Complexes with a Fast and Simple Protocol Combining Semi-Empirical Modeling and Machine Learning" by Evgeniia E. Ondar, Mikhail V. Polynski, Valentine P. Ananikov.](https:/DOI:10.1002/cphc.202200940)
 
 Water-soluble Pt complexes are vital components in medicinal chemistry and catalysis, including the well-known cisplatin family of anticancer drugs and industrial hydrosylilation catalysts. Understanding the activity mechanisms of these complexes is crucial, and 195Pt NMR spectroscopy is a valuable tool for operando monitoring. However, correlating Pt complex structure with 195Pt chemical shifts can be challenging, limiting their use in everyday research practice.
 
@@ -57,6 +57,6 @@ Please cite as:
   pages={},
   year={},
   publisher={},
-  doi={}
+  doi={10.1002/cphc.202200940}
 }
 ```
